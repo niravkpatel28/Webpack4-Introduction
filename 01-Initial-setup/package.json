@@ -1,0 +1,22 @@
+{
+  "name": "01-initial-setup",
+  "version": "1.0.0",
+  "description": "Webpack Initial set up and features ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "keywords": [
+    "webpack 4 "
+  ],
+  "author": "nirav patel",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "path": "^0.12.7"
+  }
+}
