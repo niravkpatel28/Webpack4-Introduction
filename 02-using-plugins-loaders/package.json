@@ -5,14 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack",
-    "load": "serve ./dist"
+    "build": "webpack"
   },
   "author": "nirav patel",
   "license": "ISC",
-  "dependencies": {
-    "serve": "^11.3.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "clean-webpack-plugin": "^3.0.0",
     "css-loader": "^3.2.0",
