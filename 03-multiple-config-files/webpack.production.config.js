@@ -9,7 +9,7 @@ module.exports={
         // filename:'bundle.[contenthash].js',
         filename: 'bundle.[contenthash].js',
         path: path.join(__dirname,'dist'),
-        
+        // publicPath: path.join(__dirname,'dist')
         // publicPath:'./dist/' // incase we are not building html file automatically 
         publicPath:'' // for building html file using plugin
     },
@@ -39,5 +39,5 @@ module.exports={
             template:'index.html'
         })
     ],
-    mode:"none"
+    mode:"production"
 }
